@@ -14,7 +14,7 @@ cats = [
 
     },
     {
-        name: 'Garfield'
+        name: 'Garfield',
         age: 6,
         enjoys: 'Lounging, eating lasgana, hauning the multiverse'
     },
@@ -27,6 +27,6 @@ cats = [
 ]
 
 cats.each do |attributes|
-    cat.create attributes
+    Cat.create attributes
     puts "creating cat #{attributes}"
 end
